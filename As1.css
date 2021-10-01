@@ -24,7 +24,8 @@ cursor: pointer;
 border:none;
 }
 p{
-    color: white;
+    /*color: white;*/
+	color:pink;
     font-size: 24px;
     margin-left: 50px;
     margin-top:20px;
