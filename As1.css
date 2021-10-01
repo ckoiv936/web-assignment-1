@@ -25,7 +25,9 @@ border:none;
 }
 p{
     /*color: white;*/
-	color:pink;
+	/*color:pink;*/
+	color: black
+	
     font-size: 24px;
     margin-left: 50px;
     margin-top:20px;
