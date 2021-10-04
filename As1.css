@@ -26,8 +26,6 @@ border:none;
 p{
 
 	color: white;
-	color:grey;
-	
     font-size: 24px;
     margin-left: 50px;
     margin-top:20px;
@@ -74,7 +72,7 @@ li a {
     /* max-height: 100%; */
 
     overflow:hidden;
-    /*pain in the ass revisit later */
+    /*pain in the ass revisit later - image resizing*/
     /* height: auto;
     width: auto;
     max-width : 100%; 
@@ -93,19 +91,47 @@ li a {
 .gallery
 {
 background-color: white;
-padding : 5px;
+padding : 10px 0px ;
 display: inline-block;
+margin-left: 10px;
 
+}
+
+.socialheader
+{
+  font-size: 14px;
 }
 
 .content
 {
-
-
+  font-size: 12px;
+  padding-bottom : 5px;
 }
 
 .heart
 {
-
-  /* need a heart and a comment */
+  background-image: url("images/heart.png");
+  background-size: contain;
+  background-repeat: no-repeat; /* https://stackoverflow.com/questions/53113053/how-to-make-background-image-appear-only-once-in-html-using-javascript#:~:text=You%20have%20to%20set%20the,and%20background%2Dposition%3A%20center%20. */
+  font-size: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline;
 }
+
+.comment
+{
+  background-image: url("images/comment.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 10px;
+  padding-right: 20px;
+  display: inline;
+  position: relative;
+  left: 10px;
+  padding-left: 20px;
+}
+.comment img{
+  left:5px;
+}
+
