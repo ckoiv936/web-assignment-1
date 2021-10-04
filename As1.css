@@ -37,7 +37,7 @@ li
     float: left;
 }
 
- #image{
+ .image{
      
      position: absolute;
      left: 10px;
