@@ -1,137 +1,151 @@
-*
-{
-    margin:0;
-    padding:0; /*https://stackoverflow.com/questions/18772154/white-space-at-top-of-page*/
+* {
+  margin: 0;
+  padding: 0;
+  /*https://stackoverflow.com/questions/18772154/white-space-at-top-of-page*/
 }
 
-h1
-{
-    font-size:48px;
-    color: white;
-    padding-left: 50px;
+h1 {
+  font-size: 48px;
+  color: white;
+  padding-left: 50px;
 }
 
-button /*https://www.w3schools.com/css/css3_buttons.asp*/
-{
-background-color:  #51279B;
-color: white;
-padding: 15px 32px;
-text-align : center;
-text-decoration: none;
-font-size: 16px;
-margin: 50px 50px;
-cursor: pointer;
-border:none;
-}
-p{
+button
+/*https://www.w3schools.com/css/css3_buttons.asp*/
 
-	color: white;
-    font-size: 24px;
-    margin-left: 50px;
-    margin-top:20px;
-    
+  {
+  background-color: #51279B;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 50px 50px;
+  cursor: pointer;
+  border: none;
 }
 
-li
-{
-    float: left;
+p {
+  color: white;
+  font-size: 24px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
- .image{
-     
-     position: absolute;
-     left: 10px;
-     top:5px;
- }
+li {
+  float: left;
+}
+
+.image {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+
+.largeimage {
+   
+   height: auto;
+   width: 50%;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 li a {
-    display: block;
-    color:#51279B;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
-
-  li a:hover{
-    color : #8662C7; 
-  }
-
-  ul {
-    list-style-type: none;  /*https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal */
-    padding-top: 15px;  
-    margin-left : 50px;
-    margin-bottom:90px;
-  }
-
-  article
-  {
-    background-image: url("images/florence.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% ;
-    width: 100%;
-    /* max-height: 100%; */
-
-    overflow:hidden;
-    /*pain in the ass revisit later - image resizing*/
-    /* height: auto;
-    width: auto;
-    max-width : 100%; 
-    max-height : 100%;
-    overflow: hidden; */
-    /* https://stackoverflow.com/questions/26101774/how-to-trim-off-image-in-css */
-    padding-bottom: 120px;
-    margin-bottom: 15px;
-  }
-
-  body {
-
-    background-color : lightgray;
-  }
-
-.gallery
-{
-background-color: white;
-padding : 10px 0px ;
-display: inline-block;
-margin-left: 10px;
-
+  display: block;
+  color: #51279B;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
 }
 
-.socialheader
-{
+li a:hover {
+  color: #8662C7;
+}
+
+ul {
+  list-style-type: none;
+  /*https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal */
+  padding-top: 15px;
+  margin-left: 50px;
+  margin-bottom: 90px;
+}
+
+article {
+  background-image: url("images/florence.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  overflow: hidden;
+  /* https://stackoverflow.com/questions/26101774/how-to-trim-off-image-in-css */
+  padding-bottom: 120px;
+  margin-bottom: 15px;
+}
+
+body {
+  background-color: lightgray;
+}
+
+bottom {
+  padding-left: 10px;
+}
+
+.gallery {
+  background-color: white;
+  padding: 3px 0px;
+  display: inline-block;
+}
+
+.socialheader {
   font-size: 14px;
+  margin-left: 2px;
 }
 
-.content
-{
+#bigimgheader {
+font-size: 30px;
+margin-left: 5px;
+}
+
+#bigimgcontent {
+  font-size: 15px;
+  margin-left : 5px;
+}
+
+.content {
   font-size: 12px;
-  padding-bottom : 5px;
+  padding-bottom: 5px;
+  margin-left: 2px;
 }
 
-.heart
-{
+.heart {
   background-image: url("images/heart.png");
   background-size: contain;
-  background-repeat: no-repeat; /* https://stackoverflow.com/questions/53113053/how-to-make-background-image-appear-only-once-in-html-using-javascript#:~:text=You%20have%20to%20set%20the,and%20background%2Dposition%3A%20center%20. */
+  background-repeat: no-repeat;
+  /* https://stackoverflow.com/questions/53113053/how-to-make-background-image-appear-only-once-in-html-using-javascript#:~:text=You%20have%20to%20set%20the,and%20background%2Dposition%3A%20center%20. */
   font-size: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-left: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
   display: inline;
 }
 
-.comment
-{
+.comment {
   background-image: url("images/comment.png");
   background-size: contain;
   background-repeat: no-repeat;
   font-size: 10px;
   padding-right: 20px;
   display: inline;
-  position: relative;
-  left: 10px;
-  padding-left: 20px;
-}
-.comment img{
-  left:5px;
+  /* position: relative; */
+  /* left: 50px; */
+  padding-left: 15px;
 }
 
+.comment img {
+  left: 5px;
+}
