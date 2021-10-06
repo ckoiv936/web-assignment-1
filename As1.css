@@ -92,7 +92,7 @@ body {
 }
 
 bottom {
-  padding-left: 10px;
+  margin-left: 40px;
 }
 
 .gallery {
@@ -112,7 +112,7 @@ margin-left: 5px;
 }
 
 #bigimgcontent {
-  font-size: 15px;
+  font-size: 20px;
   margin-left : 5px;
 }
 
@@ -133,7 +133,6 @@ margin-left: 5px;
   padding-right: 5px;
   display: inline;
 }
-
 .comment {
   background-image: url("images/comment.png");
   background-size: contain;
@@ -149,3 +148,4 @@ margin-left: 5px;
 .comment img {
   left: 5px;
 }
+
