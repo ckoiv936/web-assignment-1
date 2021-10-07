@@ -21,7 +21,7 @@ button
   text-decoration: none;
   font-size: 16px;
   margin: 50px 50px;
-  cursor: pointer;
+  cursor: pointer; 
   border: none;
 }
 
@@ -46,6 +46,7 @@ li {
    
    height: auto;
    width: 50%;
+   
 
 }
 
@@ -91,7 +92,7 @@ body {
   background-color: lightgray;
 }
 
-bottom {
+section {
   margin-left: 40px;
 }
 
@@ -114,6 +115,9 @@ margin-left: 5px;
 #bigimgcontent {
   font-size: 20px;
   margin-left : 5px;
+  
+  text-align: left;
+  
 }
 
 .content {
@@ -140,8 +144,6 @@ margin-left: 5px;
   font-size: 10px;
   padding-right: 20px;
   display: inline;
-  /* position: relative; */
-  /* left: 50px; */
   padding-left: 15px;
 }
 
@@ -149,3 +151,7 @@ margin-left: 5px;
   left: 5px;
 }
 
+.map_style{
+  margin-top: 10px;
+
+}
