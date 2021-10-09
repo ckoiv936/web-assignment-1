@@ -45,8 +45,6 @@ li {
    
    height: auto;
    width: 50%;
-   
-
 }
 
 .center {
@@ -159,6 +157,9 @@ footer{
   background-color: #29293a;
   padding-top : 15px;
   padding-bottom: 15px;
+  position: absolute;
+  left: 0;  /*https://stackoverflow.com/questions/5590214/make-child-div-stretch-across-width-of-page */
+  right: 0;
   }
   
   footer p{
